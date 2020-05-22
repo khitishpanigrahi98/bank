@@ -19,13 +19,15 @@ let subjectdata;
 
 app.get('',(req,res)=>{
     
-    if(req.device.type.toUpperCase()==="MOBILE")
+    if(req.device.type.toUpperCase()==="DESKTOP")
     {
         console.log("Mobile");
         res.sendFile(publicDirectoryPath+'/mlogin.html');
     }
-    else console.log("Desktop");
+    else {
+        console.log("Desktop");
     res.sendFile(publicDirectoryPath+'/login.html');
+    }
     // res.send('room'); //this will not work
 })
 app.get('/moblogin',(req,res)=>{
