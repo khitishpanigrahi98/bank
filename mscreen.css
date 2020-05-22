@@ -1,14 +1,14 @@
 body{
     background-color:black !important;
     /* overflow: scroll; */
-    background-image: url();
+    /* background-image: url(); */
 }
 .leftside{
     /* width:100vw;
     height: 40vh; */
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 90vw;
+    margin-left: 2vw;
+    margin-right:  2vw;
     padding-bottom: 20px;
     padding-top: 20px;
     color: #1a75ff;
@@ -17,9 +17,9 @@ body{
 }
 .middleside{
     /* height: 42vh; */
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 90vw;
+    margin-left: 2vw;
+    margin-right:  2vw;
     padding-left: 5px;
     color: #1a75ff;
     padding-top: 10px;
@@ -34,9 +34,9 @@ body{
     border-radius: 20px;
 }
 .rightside{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 90vw;
+    margin-left: 2vw;
+    margin-right:  2vw;
     height: auto;
     color: #1a75ff;
     padding-bottom: 30px;
@@ -52,7 +52,7 @@ body{
     font-family: serif;
 }
 .introtable{
-    margin-left: 2vw;
+    margin-left: 30%;
  }
  #logout{
     background-color: red;
@@ -76,8 +76,8 @@ body{
     font-family: serif;
 }
 .available-subjects{
-    /* margin-left: 30%; */
-    margin-left: 20vw;
+    margin-left: 35%;
+   /* / margin-left: 20vw; */
 }
 .availablesubjecttable{
     /* width: 25vw; */
@@ -175,10 +175,10 @@ div{
 }
 
 .chartpart{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding-left: 0vw !important;
+    width: 90vw;
+    margin-left: 2vw;
+    margin-right:  2vw;
+    padding-left: 2% !important;
     background-color:#e6ffff;
     height: 40vh;
     padding-bottom: 10vw;
