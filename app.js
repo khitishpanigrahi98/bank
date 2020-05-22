@@ -17,15 +17,15 @@ app.set('views', viewsPath)
 let subjectdata;
 
 app.get('',(req,res)=>{
-    // const screenwidth=size.width;
-    // const screenheight=size.height;
-    // console.log(screenwidth);
-    // console.log(screenheight);
-    // if(screenwidth<screenheight)
-    // {
-    //     console.log("Mobile");
-    //     res.sendFile(publicDirectoryPath+'/mlogin.html');
-    // }
+    const screenwidth=size.width;
+    const screenheight=size.height;
+    console.log(screenwidth);
+    console.log(screenheight);
+    if(screenwidth<screenheight)
+    {
+        console.log("Mobile");
+        res.sendFile(publicDirectoryPath+'/mlogin.html');
+    }
     res.sendFile(publicDirectoryPath+'/login.html');
     // res.send('room'); //this will not work
 })
