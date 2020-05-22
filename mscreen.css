@@ -1,215 +1,116 @@
 body{
     background-color:black !important;
     /* overflow: scroll; */
-    background-image: url(https://wytcotetech.com/wp-content/uploads/2017/01/landing-bg-1.jpg);
+    background-image: url(background.jpg);
     background-position: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;   
     height: 100vh;
 }
-.leftside{
-    /* width:100vw;
-    height: 40vh; */
-    width: 95vw;
-    opacity: 0.6;
-    height: 100vh !important;
-    margin-left: 2vw;
-    margin-right:  2vw;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    color: #1a75ff;
-    padding-left: 10px;
-    background-color:#e6ffff
- 
+
+.introclass{
+    width: 80vw;
+    margin-left: 10vw!important;
+    margin-right: 10vw!important;
+    padding-left: 25%;
+    background-color: #0066ff;
+    opacity: 0.8;
+    margin-top: 15px;
+    border-radius: 500px;
+    color: red;
 }
-.middleside{
-    /* height: 42vh; */
-    width: 95vw;
-    height: 100vh !important;
-    opacity: 0.6;
-    margin-left: 2vw;
-    margin-right:  2vw;
-    padding-left: 5px;
-    color: #1a75ff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:#e6ffff
-    
+.logout{
+    margin-left: 25vw;
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+.allavailablesub{
+    width: 80vw;
+    margin-left: 10vw!important;
+    margin-right: 10vw!important;
+    height: 100vh;
+    background-color: #0066ff;
+    opacity: 0.8;
+font-size: 5vh;
+color: #ff0066;
+border-radius: 200px;
+}
+
+.allavailablesubinner{
+    padding-left: 40%;
+    border-radius: 200px;
 }
 
 #misseddates{
     background-color: red;
-    margin-top: 50px;
-    border-radius: 20px;
-}
-.rightside{
-    width: 95vw;
-    height: 100vh !important;
-    margin-left: 2vw;
-    margin-right:  2vw;
-    opacity: 0.6;
-    height: auto;
-    color: #1a75ff;
-    padding-bottom: 30px;
-    background-color: #e6ffff
     
-}
-.introclass{
-    color: red;
-    /* margin-left: 50%; */
-    width: 100vw;
-    /* font-size: 120%; */
-    margin-top: 10px;
-    font-family: serif;
-}
-.introtable{
-    margin-left: 30%;
- }
- #logout{
-    background-color: red;
-    /* margin-left: 80px; */
-    margin-left: 10vw;
-    font-size: 90%;
     border-radius: 20px;
-    height: 5vh;
-    width: 16vw;
-}
-.logout{
-    margin-top: 20px;
-}
- 
-.firstclass {
-    width: 80vw;
-    height:25vh;
-    margin-left: 0px;
-    /* margin-top: 10px; */
-    /* transform: translate(-50%, -50%);  */
-    font-family: serif;
-}
-.available-subjects{
-    margin-left: 35%;
-    opacity: 1!important;
-   /* / margin-left: 20vw; */
-}
-.availablesubjecttable{
-    /* width: 25vw; */
-    margin-left: 40px;
-    margin-bottom: 10px;
-    font-size: 200% !important;;
-    /* padding-left: 20px; */
-    /* margin-left: 30%; */
-}
-/* {
-    border: 1px solid black;
-  } */
-
-.dates{
-    width: 100vw;
-    height: 100vh;
-    margin-left: 7vw;
-    font-size: 70%;
-}
-
-.recentaddedsubject{
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-left: 30%;
-    color: #1a75ff;
-    margin-right: 35vw;
-    /* margin-right: 160px; */
-    font-size: 80%;
-    background-color:#99ccff;
-    text-align: center;
-    border-radius: 20px
-}
-.recentaddedsubjecttitle,.addedsubjectheader{
-    margin-top: 20px;
-    padding-left: 10px;
-    color: #1a75ff;
-    margin-left: 30%;
-    margin-right: 35vw;
-    text-align: center;
-    font-size: 80%;
-    background-color:#99ccff;
-    border-radius: 20px;
-}
-#addsubjectname{
-    margin-left: 30%;
-    margin-top: 15px;
-    width: 120px;
-    height: 30px;
-    border-radius: 20px;
-}
-#addtotalpresent{
-    margin-left: 40px;
-   width: 140px;
-   height: 30px;
-   border-radius: 20px;
-}
-
-#datesubbunk{
-    margin-left: 30%;
-    margin-top: 15px;
-    width: 200px;
-    height: 30px;
-    border-radius: 20px;
-}
-
-#datesubmit{
-    width: 80px;
-    height: 30px;
-    margin-left: 20px;
-    background-color: red;
-    border-radius: 20px;
-}
-
-
-
-.selectdate{
-    padding-top: 30px;
-    margin-left: 20px;
-}
-#addbunkdate{
-   
-    margin-left: 30%;;
-}
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: black;
-    opacity: 0.5; /* Firefox */
-  }
-
-div{
-    border-radius: 20px;
-}
-
-.status{
-    padding-left: 10vw;
-    padding-top:8vw;
 }
 
 .chartpart{
-    width: 95vw;
-    height: 100vh !important;;
-    margin-left: 2vw;
-    margin-right:  2vw;
-    padding-left: 2% !important;
-    background-color:#e6ffff;
-    opacity: 0.6;
-    height: 40vh;
-    padding-bottom: 10vw;
+    width: 80vw;
+    margin-left: 10vw!important;
+    margin-right: 10vw!important;
+    padding-top: 10vh!important;
+    height: 100vh;
+    background-color: #0066ff;
+    opacity: 0.8;
+    border-radius: 200px;
 }
 
-h1{
-    color: red;
-   
-    /* text-align: center; */
+.status{
+    margin-left: 30%;
+    margin-top: 10px;
+    font-size: 200%!important;
 }
 
-#subjectheader{
- background-color: aqua;
- font-size: 500% !important;
- border-radius: 20px;
- width: fit-content;
+.leftside{
+    width: 80vw;
+    margin-left: 10vw!important;
+    margin-right: 10vw!important;
+    padding-top: 10vh!important;
+    height: 100vh;
+    background-color: #0066ff;
+    border-radius: 200px;
+    opacity: 0.8;
+}
+
+.warnheading,.dates{
+    margin-left: 20%;
+    font-size: 200%!important;
+    color: #ff0066;
+}
+
+.rightside{
+    width: 80vw;
+    margin-left: 10vw!important;
+    margin-right: 10vw!important;
+    padding-top: 10vh!important;
+    height: 100vh;
+    opacity: 0.8;
+    background-color: #0066ff;
+    border-radius: 200px;
+}
+
+.selectdate{
+    margin-left: 30%;
+}
+.addsubject{
+    margin-left: 30%;
+    font-size: 200%!important;
+}
+
+#addsubjectname{
+    border-radius: 20px;
+}
+#addtotalpresent{
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+#datesubbunk{
+    margin-top: 20px;
+    border-radius: 20px;
 }
