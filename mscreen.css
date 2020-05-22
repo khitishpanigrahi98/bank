@@ -28,8 +28,8 @@ background-repeat: no-repeat;
 .logout{
     margin-left: 25vw;
     margin-top: 20px;
-    height: 6vh;
-    width: 10vh;
+    height: 3vh;
+    width: 8vh;
     background-color: red;
     border-radius: 20px;
 }
@@ -41,7 +41,7 @@ background-repeat: no-repeat;
     height: 100vh;
     /* background-color: #0066ff; */
     opacity: 0.8;
-font-size: 5vh;
+/* font-size: 5vh; */
 color: #ff0066;
 border-radius: 200px;
 background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
@@ -58,6 +58,7 @@ background-repeat: no-repeat;
 
 #misseddates{
     background-color: red;
+    font-size: 150%;
     height: 5vh;
     width: 25vh;
     border-radius: 20px;
@@ -179,6 +180,9 @@ color: beige;
 #subjectheader{
     margin-left: 0px!important;
 }
-#logout{
-   width: 10vh;
+
+.fetchedsubj{
+width: 10vh;
+height: 5vh;
+font-size: 200%;
 }

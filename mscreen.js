@@ -16,7 +16,7 @@ else{
 }
 
 document.querySelector("#misseddates").addEventListener('click',(event)=>{
-    
+  document.getElementById("misseddates").disabled=true;
     event.preventDefault();
     // console.log("Fetching Subjects");
     // console.log(location);
@@ -146,6 +146,7 @@ document.querySelector("#misseddates").addEventListener('click',(event)=>{
 
                     // chart section ends
     })
+    document.getElementById("misseddates").disabled=false;
 })
 
 // Example POST method implementation:
