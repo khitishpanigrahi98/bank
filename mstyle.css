@@ -52,6 +52,7 @@ button {
     border: none;
     color: white;
     font-size: 16px;
+    border-radius: 20px;
     transition: background .3s ease;
 }
 
@@ -68,9 +69,13 @@ button:disabled {
 
 .centered-form {
     /* background: #333744; */
-    width: 100vw;
-    height: 50vh;   
-    display: flex;
+    /* width: 100vw; */
+    /* height: 100vh;    */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 12vh !important;
+    margin-left: 40%;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -78,9 +83,14 @@ button:disabled {
 .centered-form__box {
     box-shadow: 0px 0px 15px 1px #1D1F26;
     background: #F7F7FA;
+    width: fit-content;
+    height: fit-content;
+    /* width: 30vw;
+    height: 50vh;    */
+    /* margin-top: 20% !important; */
     opacity: 0.8;
     padding: 24px;
-    width: 250px;
+    /* width: 250px; */
 }
 
 .centered-form button {
@@ -102,4 +112,11 @@ button:disabled {
 .createroom-button{
     border-radius: 20px;
     width: 150px;
+}
+
+.signup{
+    margin-top: 3vh;
+    border-radius: 20px;
+    background-color: #ff4d4d;
+    transition: background .3s ease;
 }
