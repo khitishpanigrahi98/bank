@@ -6,7 +6,7 @@ body{
 .leftside{
     /* width:100vw;
     height: 40vh; */
-    width: 90vw;
+    width: 95vw;
     margin-left: 2vw;
     margin-right:  2vw;
     padding-bottom: 20px;
@@ -17,7 +17,7 @@ body{
 }
 .middleside{
     /* height: 42vh; */
-    width: 90vw;
+    width: 95vw;
     margin-left: 2vw;
     margin-right:  2vw;
     padding-left: 5px;
@@ -34,7 +34,7 @@ body{
     border-radius: 20px;
 }
 .rightside{
-    width: 90vw;
+    width: 95vw;
     margin-left: 2vw;
     margin-right:  2vw;
     height: auto;
@@ -83,6 +83,7 @@ body{
     /* width: 25vw; */
     margin-left: 40px;
     margin-bottom: 10px;
+    font-size: 200% !important;;
     /* padding-left: 20px; */
     /* margin-left: 30%; */
 }
@@ -99,7 +100,7 @@ body{
 .recentaddedsubject{
     margin-top: 10px;
     padding-left: 10px;
-    margin-left: 25vw;
+    margin-left: 30%;
     color: #1a75ff;
     margin-right: 35vw;
     /* margin-right: 160px; */
@@ -112,7 +113,7 @@ body{
     margin-top: 20px;
     padding-left: 10px;
     color: #1a75ff;
-    margin-left: 25vw;
+    margin-left: 30%;
     margin-right: 35vw;
     text-align: center;
     font-size: 80%;
@@ -120,8 +121,8 @@ body{
     border-radius: 20px;
 }
 #addsubjectname{
-    margin-left: 50px;
-    margin-top: 15px;;
+    margin-left: 30%;
+    margin-top: 15px;
     width: 120px;
     height: 30px;
     border-radius: 20px;
@@ -134,7 +135,7 @@ body{
 }
 
 #datesubbunk{
-    margin-left: 50px;
+    margin-left: 30%;
     margin-top: 15px;
     width: 200px;
     height: 30px;
@@ -175,11 +176,24 @@ div{
 }
 
 .chartpart{
-    width: 90vw;
+    width: 95vw;
     margin-left: 2vw;
     margin-right:  2vw;
     padding-left: 2% !important;
     background-color:#e6ffff;
     height: 40vh;
     padding-bottom: 10vw;
+}
+
+h1{
+    color: red;
+   
+    /* text-align: center; */
+}
+
+#subjectheader{
+ background-color: aqua;
+ font-size: 500% !important;
+ border-radius: 20px;
+ width: fit-content;
 }
