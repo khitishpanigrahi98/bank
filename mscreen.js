@@ -88,6 +88,7 @@ document.querySelector("#misseddates").addEventListener('click',(event)=>{
                     const  askabsent=totalbunk;
                     
                     if(document.querySelector('.warnheading')) document.querySelector('.warnheading').innerHTML = '';
+                    if(document.querySelector('.warnheadingchart')) document.querySelector('.warnheadingchart').innerHTML = '';
                     // console.log(askabsent);
                     // console.log(asktotal);
                     // console.log("Hi "+askabsent);

@@ -14,6 +14,7 @@ body{
     margin-left: 10vw!important;
     margin-right: 10vw!important;
     padding-left: 5%;
+    height: fit-content!important;
     /* background-color: #0066ff; */
     background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
 background-repeat: no-repeat;
@@ -36,6 +37,7 @@ background-repeat: no-repeat;
     width: 80vw;
     margin-left: 10vw!important;
     margin-right: 10vw!important;
+    height: fit-content!important;
     height: 100vh;
     /* background-color: #0066ff; */
     opacity: 0.8;
@@ -46,6 +48,7 @@ background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.
 background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;   
+    padding-bottom: 5vh!important;
 }
 
 .allavailablesubinner{
@@ -68,6 +71,8 @@ background-repeat: no-repeat;
     height: 100vh;
     /* background-color: #0066ff; */
     background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
+    padding-bottom: 5vh!important;
+    height: fit-content!important;
     background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;  
@@ -89,6 +94,8 @@ background-repeat: no-repeat;
     height: 100vh;
     /* background-color: #0066ff; */
     background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
+    padding-bottom: 5vh!important;
+    height: fit-content!important;
 background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;  
@@ -96,7 +103,7 @@ background-repeat: no-repeat;
     opacity: 0.8;
 }
 
-.warnheading{
+.warnheading,.warnheadingchart{
     margin-left: 20%;
     font-size: 200%!important;
     color: #ff0066;
@@ -111,19 +118,21 @@ background-repeat: no-repeat;
     width: 80vw;
     margin-left: 10vw!important;
     margin-right: 10vw!important;
-    padding-top: 10vh!important;
+    padding-top: 20vh!important;
+    padding-bottom: 20vh!important;
     height: 100vh;
     opacity: 0.8;
     /* background-color: #0066ff; */
     background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
-background-repeat: no-repeat;
+    height: fit-content!important;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;  
     border-radius: 200px;
 }
 
 .selectdate{
-    margin-top: 25vh;
+    /* margin-top: 25vh; */
     margin-left: 30%;
 }
 .addsubject{
