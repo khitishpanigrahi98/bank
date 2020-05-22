@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;  /* this is important */
+}
+#mybutton{
+    background-color: red;
+}
+.introclass{
+    color: red;
+    position: absolute;
+    /* margin-left: 50%; */
+    font-size: 150%;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+}
+.zeroclass{
+    color: red;
+    position: absolute;
+    margin-top: 10%;
+    padding-top: 20px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    /* font-size: 120% */
+}
+.secondclass{
+    position: absolute;
+    margin-top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    font-size: 150%;
+}
+.firstclass {
+    width: 30%;
+    height:30%;
+    /* top: 20%; */
+    margin-top: 25%;
+    margin-bottom: 0%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: serif;
+}
+.creator{
+    /* top: 20%; */
+   /* margin-top: 2%; */
+   margin-left: 63%;
+    color: red;
+    font-family: serif;
+    font-size: 150%;
+}
+.attend{
+    padding-top: 10%;
+    margin-left: 40%;
+}

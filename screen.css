@@ -1,0 +1,135 @@
+body{
+    background-color:black !important;
+    /* overflow: scroll; */
+    background-image: url();
+}
+.leftside{
+    width:33vw;
+    height: 80vh;
+    padding-left: 10px;
+    background-color:#e6ffff
+}
+.middleside{
+    width:33vw;
+    height: 80vh;
+    padding-left: 5px;
+    background-color:#e6ffff
+    
+    
+}
+#misseddates{
+    background-color: red;
+    border-radius: 20px;
+}
+.rightside{
+    width:33vw;
+    height: 80vh;
+    background-color: #e6ffff
+    
+}
+.introclass{
+    color: red;
+    /* margin-left: 50%; */
+    font-size: 150%;
+    margin-top: 10px;
+    font-family: serif;
+}
+.firstclass {
+    width: 30vw;
+    height:30vh;
+    /* margin-top: 10px; */
+    /* transform: translate(-50%, -50%);  */
+    font-family: serif;
+}
+.available-subjects{
+    margin-left: 30%;
+}
+.availablesubjecttable{
+    width: 25vw;
+    margin-bottom: 20px;
+    /* padding-left: 20px; */
+    /* margin-left: 30%; */
+}
+/* {
+    border: 1px solid black;
+  } */
+
+.dates{
+    width: 25vw;
+    font-size: 60%;
+}
+
+.recentaddedsubject{
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 30%;
+    margin-right: 100px;
+    font-size: 80%;
+    background-color:#99ccff;
+    border-radius: 20px
+}
+.recentaddedsubjecttitle,.addedsubjectheader{
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 25%;
+    margin-right: 100px;
+    font-size: 80%;
+    background-color:#99ccff;
+    border-radius: 20px;
+}
+#addsubjectname{
+    margin-left: 50px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+}
+#addtotalpresent{
+    margin-left: 40px;
+   width: 140px;
+   height: 30px;
+   border-radius: 20px;
+}
+
+#datesubbunk{
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#datesubmit{
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.introtable{
+   margin-left: 33.3%;
+}
+
+#logout{
+    background-color: red;
+    margin-left: 520px;
+    font-size: 90%;
+    border-radius: 20px;
+}
+.logout{
+    margin-top: 20px;
+}
+.selectdate{
+    margin-left: 20px;
+}
+#addbunkdate{
+    margin-left: 30%;;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 0.5; /* Firefox */
+  }
+
+div{
+    border-radius: 20px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Chart</title>
+    <!-- <link rel="icon" href="/img/weather.png"> -->
+    <link rel="stylesheet" href="screen.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <div class="introclass">
+         <table class="introtable">
+                <tr>
+                   <th> <h1>BUNK WEB APP</h1></th>
+                   <th> <form class="form-inline md-form mr-auto mb-4">    <!--action="/student" method="POST" -->
+                        <div class="logout"> <button id="logout" class="btn aqua-gradient btn-rounded btn-sm my-0" type="click">Logout</button></div>
+                    </form>
+                    </div>
+                </th>
+                </tr>
+        </table>
+      <table class="maintable">
+        <tr>
+         <th>  <div class="leftside">  
+             {{!-- yes --}}
+                    <div class="allsubjects">
+                            <div class="attend">   
+                             
+                            </div>
+
+                  </div>
+                  <div class="drawchart">
+                         <div class="warnheading"> Choose a Subject to See Detailed Analysis</div>
+                    <div class="firstclass">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class="status">
+                        
+                    </div>
+                    <div class="dates">
+                        {{!-- <table class="firsttable">
+                            <tr>
+                            <th>Subject</th>
+                            <th>Present</th>
+                            <th>Absent</th>
+                            <th>Dates</th>
+                        </tr>
+                            <tr>
+                                <td>
+                                <input type="radio" id="Spanish" name="subject" value="Spanish">
+                            </td>
+                            <td><div id="Spanish">Spanish</div></td>
+                            <td><div class="Spanishpresent">14</div> </td>
+                            <td><div id="Spanishbunk">3</div> </td>
+                            <td> 12-2-19</td>
+                            </tr>
+                       </table> --}}
+                    </div>
+              </div>
+              </div>
+            
+        </th>
+
+
+        <th>   
+            <div class="middleside">
+                 <div class="available-subjects">
+                      <h1>Subjects</h1>
+                       {{!-- <div class="warnheading2"> Add a Subject to see Detailed Analysis</div> --}}
+                         <div class="attend">   
+                            <table class="availablesubjecttable">
+                                {{#values}}
+                            <tr>
+                                <td>
+                                    <input type="radio" id={{name}} name="subject" value={{name}}>
+                            </td>
+                                <td><div id={{name}}>{{name}}</div></td>
+                            </tr>
+                            {{/values}}
+                            </table>
+                     </div>
+                      <form class="form-inline md-form mr-auto mb-4">    <!--action="/student" method="POST" -->
+            <button id="misseddates" class="btn aqua-gradient btn-rounded btn-sm my-0" type="click">Show Deatiled Analysis</button>
+                        </form>
+                 </div>
+                 {{!-- <div class="add-bunk">Hello World</div> --}}
+              </div>
+      </th>
+
+
+
+
+
+
+
+
+         <th>   
+              <div class="rightside">
+                   <div class="selectdate">
+                        <h1 id="addbunkdate">Add Bunk</h1>
+                        <form >
+                        <input type="text" id="addsubjectname" name="addsubjectname" placeholder="Subject">
+                        <input type="text" id="addtotalpresent" name="addtotalpresent" placeholder="Total Classes">
+                        <br>
+                        <input type="date" id="datesubbunk" name="datesubbunk" placeholder="Select Date">
+                        {{!-- <input id="datesubmit" type="submit"> --}}
+                    <button id="datesubmit" class="btn aqua-gradient btn-rounded btn-sm my-0" type="click">Save</button>
+                    </form>
+                   </div>
+                  <div class="addsubject">
+                      <div class="recentaddedsubjecttitle">No recently Added Subjects</div>
+                       {{!-- <div class="recentaddedsubject">Hello World</div> --}}
+                  </div>
+                </div>
+        </th>
+       </tr>
+ </table>
+ 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+    <script src="screen.js"></script>
+</body>
+
+</html>
