@@ -5,6 +5,7 @@ const Student = require('./StudentDatabase.js')
 const Subject = require('./Subjects.js')
 const auth = require('./auth')
 const size = require('window-size');
+const device = require('express-device');
 const hbs = require('hbs')
 const port = process.env.PORT
 const publicDirectoryPath =__dirname;
@@ -13,19 +14,17 @@ const viewsPath = path.join(__dirname, './views')
 app.use(express.static(publicDirectoryPath))
 app.set('view engine', 'hbs')
 app.set('views', viewsPath)
-
+app.use(device.capture());
 let subjectdata;
 
 app.get('',(req,res)=>{
-    const screenwidth=size.width;
-    const screenheight=size.height;
-    console.log(screenwidth);
-    console.log(screenheight);
-    if(screenwidth<screenheight)
+    
+    if(req.device.type.toUpperCase()==="MOBILE")
     {
         console.log("Mobile");
         res.sendFile(publicDirectoryPath+'/mlogin.html');
     }
+    else console.log("Desktop");
     res.sendFile(publicDirectoryPath+'/login.html');
     // res.send('room'); //this will not work
 })
