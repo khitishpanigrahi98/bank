@@ -1,12 +1,18 @@
 body{
     background-color:black !important;
     /* overflow: scroll; */
-    /* background-image: url(); */
+    background-image: url(https://wytcotetech.com/wp-content/uploads/2017/01/landing-bg-1.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+    height: 100vh;
 }
 .leftside{
     /* width:100vw;
     height: 40vh; */
     width: 95vw;
+    opacity: 0.6;
     height: 100vh !important;
     margin-left: 2vw;
     margin-right:  2vw;
@@ -15,11 +21,13 @@ body{
     color: #1a75ff;
     padding-left: 10px;
     background-color:#e6ffff
+ 
 }
 .middleside{
     /* height: 42vh; */
     width: 95vw;
     height: 100vh !important;
+    opacity: 0.6;
     margin-left: 2vw;
     margin-right:  2vw;
     padding-left: 5px;
@@ -40,6 +48,7 @@ body{
     height: 100vh !important;
     margin-left: 2vw;
     margin-right:  2vw;
+    opacity: 0.6;
     height: auto;
     color: #1a75ff;
     padding-bottom: 30px;
@@ -80,6 +89,7 @@ body{
 }
 .available-subjects{
     margin-left: 35%;
+    opacity: 1!important;
    /* / margin-left: 20vw; */
 }
 .availablesubjecttable{
@@ -186,6 +196,7 @@ div{
     margin-right:  2vw;
     padding-left: 2% !important;
     background-color:#e6ffff;
+    opacity: 0.6;
     height: 40vh;
     padding-bottom: 10vw;
 }
