@@ -25,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;   
     height: 100vh;
+    
 
 }
 
@@ -78,6 +79,7 @@ button:disabled {
     /* display: flex; */
     justify-content: center;
     align-items: center;
+    position:fixed;
 }
 
 .centered-form__box {
@@ -85,6 +87,7 @@ button:disabled {
     background: #F7F7FA;
     width: fit-content;
     height: fit-content;
+    position:fixed;
     /* width: 30vw;
     height: 50vh;    */
     /* margin-top: 20% !important; */
