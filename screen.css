@@ -1,19 +1,35 @@
 body{
     background-color:black !important;
     /* overflow: scroll; */
-    background-image: url();
+    /* added later here during mobile app */
+    background-image: url(https://wallpaperplay.com/walls/full/b/6/d/54076.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+    height: 100vh;
 }
 .leftside{
     width:33vw;
     height: 80vh;
     padding-left: 10px;
-    background-color:#e6ffff
+    /* background-color:#e6ffff */
+    background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;  
+        opacity: 0.7;
 }
 .middleside{
     width:33vw;
     height: 80vh;
     padding-left: 5px;
-    background-color:#e6ffff
+    /* background-color:#e6ffff */
+    background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;  
+        opacity: 0.7;
     
     
 }
@@ -24,8 +40,13 @@ body{
 .rightside{
     width:33vw;
     height: 80vh;
-    background-color: #e6ffff
-    
+    /* background-color: #e6ffff */
+    background-image: url(https://ak.picdn.net/shutterstock/videos/20473897/thumb/1.jpg);
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;  
+        opacity: 0.7;
+  
 }
 .introclass{
     color: red;
@@ -65,8 +86,9 @@ body{
     margin-left: 30%;
     margin-right: 100px;
     font-size: 80%;
-    background-color:#99ccff;
-    border-radius: 20px
+    /* background-color:#99ccff; */
+    border-radius: 20px;
+  
 }
 .recentaddedsubjecttitle,.addedsubjectheader{
     margin-top: 10px;
@@ -74,7 +96,8 @@ body{
     margin-left: 25%;
     margin-right: 100px;
     font-size: 80%;
-    background-color:#99ccff;
+    /* background-color:#99ccff; */
+  
     border-radius: 20px;
 }
 #addsubjectname{
