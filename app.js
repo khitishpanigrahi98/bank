@@ -22,11 +22,12 @@ app.get('',(req,res)=>{
     if(req.device.type.toUpperCase()==="DESKTOP")
     {
         console.log("Mobile");
-        res.sendFile(publicDirectoryPath+'/mlogin.html');
+        res.sendFile(publicDirectoryPath+'/login.html');
+        
     }
     else {
         console.log("Desktop");
-    res.sendFile(publicDirectoryPath+'/login.html');
+        res.sendFile(publicDirectoryPath+'/mlogin.html');
     }
     // res.send('room'); //this will not work
 })
