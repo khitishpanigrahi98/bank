@@ -233,7 +233,13 @@ app.get('/mobdata',auth ,async (req, res) => {
     res.render('mobdata', {values: retsub})
 })
 
+app.get('/nodemcu',async(req,res)=>{
+    res.send("Hi from server , response of get request");
+})
 
+app.post('/nodemcu',async(req,res)=>{
+    res.send("Hi from server , response of post request");
+})
 
 app.get('/*',auth,async(req,res)=>{
     res.sendFile(publicDirectoryPath+'/error.html');
