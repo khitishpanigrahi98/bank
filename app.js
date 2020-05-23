@@ -237,6 +237,10 @@ app.get('/nodemcu',async(req,res)=>{
     res.send("Hi from server , response of get request");
 })
 
+app.get('/nodemcujson',async(req,res)=>{
+    res.send({ans:"Hello from server get resonse" ,v2:"I agree"});
+})
+
 app.post('/nodemcu',async(req,res)=>{
     res.send("Hi from server , response of post request");
 })
