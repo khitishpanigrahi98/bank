@@ -128,16 +128,6 @@ app.get('/addsubject',auth,async(req,res)=>{
     // res.send('room'); //this will not work
 })
 
-app.get('/nodemcu',(req,res)=>{
-    res.send("Hello from cloud Get reply");
-    // res.send('room'); //this will not work
-})
-
-app.post('/nodemcu',(req,res)=>{
-    res.send("Post Reply from cloud");
-    // res.send('room'); //this will not work
-})
-
 app.post('/signup',async (req,res)=>{
     
     // console.log("New sign up request")
@@ -245,7 +235,9 @@ app.get('/mobdata',auth ,async (req, res) => {
 
 
 
-
+app.get('/*',auth,async(req,res)=>{
+    res.sendFile(publicDirectoryPath+'/error.html');
+})
 
 
 
